@@ -1,0 +1,24 @@
+-Notoes-
+
+-Typscripting-ability to allow for static typing in js 
+-This allows for large scale js app development(allows for checking dic, error during complie time)
+-->cool thing is that this compiles all of plain js SO... runs on any browser. any host. any OS!!!
+
+-Typscripting just gives you the code in plain js minus the typscript and so it's no framework or library
+-Due to being structural typing as suppose to nominal, if varialbes are indentical with different values but structurally sound it would be ok
+-can have callbacks in the t entity for extra fucntions(whats the purpose of this?)
+-allows for union types (string or callback function) for the data types 
+-How does the typescript know all these defintions before autocompletes?
+-->cuz of Lib.dts a declaration file in every compilation
+    -these could be written in other frameworks declarations i mean
+    -DefinelyTyped on Github has a lot of the declarations each of the js frameworks. 
+
+-Questions-
+-What does it mean by structural not nominal as everything in typescripting?
+-->   
+
+-So VS code tryings to give and autocompletes code with a list within proptype is typescript?
+    -like statement completion with contextual typing
+    -->written intellisence and typeahead 
+
+-interface: what does it do? just if the variables and objects are same data types as intended

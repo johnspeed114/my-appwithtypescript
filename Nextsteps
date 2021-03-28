@@ -1,0 +1,18 @@
+solutions for the 'many props' and 'long prop chain' problems:
+1. proptypes (https://reactjs.org/docs/typechecking-with-proptypes.html)
+
+
+2. static types for props via TypeScript
+
+
+3. (on the long prop chain side) use Redux or a similar library (e.g. MobX)
+
+
+recommendation for next challenge:
+
+
+1. generate with TypeScript with CRA[Finished]
+
+
+2. build out the todos app to the level of where it is now
+(feel free to leave off edit functionality)[1. input header 2. show todo items]
