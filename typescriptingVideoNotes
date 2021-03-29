@@ -1,4 +1,4 @@
--Notoes-
+-Notes-
 
 -Typscripting-ability to allow for static typing in js 
 -This allows for large scale js app development(allows for checking dic, error during complie time)
@@ -13,12 +13,24 @@
     -these could be written in other frameworks declarations i mean
     -DefinelyTyped on Github has a lot of the declarations each of the js frameworks. 
 
+- Becoming like a functional programming language, typescript allows for private and protected classes(very similar to the ones in python) for data access as suppose to just public and hashtags saying it
+->Needless to say, the code in plain js will not show this data access restriction 
+-a lot of flash and js games are now written in typescript due to they have annotations and classes in flash! (fun fact)
+
+-typescript allows for namespace 
+
 -Questions-
 -What does it mean by structural not nominal as everything in typescripting?
--->   
+--> structural checks user created data structures like objects and functions as the data types are ok 
+--> nominal like importing a class would have to have literally the same memory address of that data entity
 
 -So VS code tryings to give and autocompletes code with a list within proptype is typescript?
     -like statement completion with contextual typing
     -->written intellisence and typeahead 
 
 -interface: what does it do? just if the variables and objects are same data types as intended
+
+
+---Misc. Notes---
+-Polyfill are using features that in a later version of the language like arrow functions/classes in ecma5( you can use js code on an idiomatic for patterns like classes, in this case transform the constructor function to act like a class more)
+-Namespace: wrapping entities, variables, objects, ... under on group like classes, variables
