@@ -8,4 +8,4 @@ type Todo = {
 
 type ToggleTodo = (selectedTodo: Todo) => void;
 type AddTodo = (newTodo: string) => void;
-type deleteButton = (idKey: Todo.id) => void;
+type DeleteButton = (idKey: Todo.id) => void;
